@@ -20,3 +20,21 @@
     display:inline-block;
     width: 10%;
 }
+#obie {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#bigObie {
+    border-radius: 2%;
+    height: 50%;
+    width: 80%;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    margin-bottom: 5px;
+}

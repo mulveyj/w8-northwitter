@@ -12,6 +12,15 @@ class TweetList extends React.Component {
               <Tweet />
               <Tweet />
               <Tweet />
+              <Tweet />
+              <Tweet />
+              <Tweet />
+              <Tweet />
+              <Tweet />
+              <Tweet />
+              <Tweet />
+              <Tweet />
+              <Tweet />
             </div>
         );
     }

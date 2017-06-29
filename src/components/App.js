@@ -7,6 +7,7 @@ import MakeTweet from './MakeTweet';
 import TweetList from './TweetList';
 import Follow from './Follow';
 import FindPeople from './FindPeople';
+import Policy from './Policy'
 
 class App extends React.Component {
   render() {
@@ -25,11 +26,7 @@ class App extends React.Component {
           <div className='area-right col-md-3'>
             <Follow />
             <FindPeople />
-            
-            <div className='component-policy'>
-              Policy
-            </div>
-
+            <Policy />
           </div>
         </div>
       </div>
