@@ -1,0 +1,9 @@
+.component-TweetList {
+    background-color: rgb(245, 248,250);
+    display: block;
+    background-repeat: repeat;
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    top: -1px;
+}
