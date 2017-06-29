@@ -8,6 +8,7 @@
 
 .topRow {
     height: 74px;
+    background-color: #FFFFFF
 }
 
 .user {
@@ -20,4 +21,12 @@
     border: 2px solid #fff;
     box-sizing: border-box;
     color: #fff;
+}
+.component-profile {
+    
+}
+
+.bottomRow {
+    background-color: #FFFFFF;
+    height: 74px;
 }

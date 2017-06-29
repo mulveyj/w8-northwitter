@@ -1,6 +1,7 @@
-body {
-    color: #14171a;
+.component-App{
+    background-color: rgb(230, 236, 240);
     font-size: 14px;
     line-height: 18px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: rgb(20, 23, 26);
 }
