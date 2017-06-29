@@ -1,0 +1,15 @@
+#findLink {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0px;
+}
+#findIcon {
+width: 10%;
+display: inline-block;
+margin-right: 0px;
+margin: 10px;
+}
+.find-people {
+    background-color: #ffffff;
+    margin: 3px 0px 3px 0px;
+}

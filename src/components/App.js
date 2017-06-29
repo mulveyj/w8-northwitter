@@ -5,6 +5,8 @@ import Profile from './Profile';
 import Trends from './Trends';
 import MakeTweet from './MakeTweet';
 import TweetList from './TweetList';
+import Follow from './Follow';
+import FindPeople from './FindPeople';
 
 class App extends React.Component {
   render() {
@@ -21,9 +23,9 @@ class App extends React.Component {
             <TweetList />
           </div>
           <div className='area-right col-md-3'>
-            <div className='component-follow'>
-              Follow
-            </div>
+            <Follow />
+            <FindPeople />
+            
             <div className='component-policy'>
               Policy
             </div>
