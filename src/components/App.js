@@ -3,6 +3,8 @@ import NavBar from './NavBar';
 import './App.css';
 import Profile from './Profile';
 import Trends from './Trends';
+import MakeTweet from './MakeTweet';
+import TweetList from './TweetList';
 
 class App extends React.Component {
   render() {
@@ -15,12 +17,8 @@ class App extends React.Component {
             <Trends />
           </div>
           <div className='area-centre col-md-6'>
-            <div className='component-makeTweet'>
-              Make Tweet
-            </div>
-            <div className='component-TweetList'>
-              TweetList
-            </div>
+            <MakeTweet />
+            <TweetList />
           </div>
           <div className='area-right col-md-3'>
             <div className='component-follow'>

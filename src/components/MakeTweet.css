@@ -1,0 +1,38 @@
+.component-makeTweet {
+    background-color: #FFFFFF;
+    min-height: 64px;
+    margin: 0px;
+    line-height:20px;
+    display: block;
+}
+#littleDonald {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    position: absolute;
+    top: 13px;
+    left: 28px;
+}
+
+#tweetArea {
+    display: block;
+    position: relative;
+    left: 50px;
+    top: 15px;
+    border-radius: 12px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    width: 80%;
+}
+
+.tweetImg {
+    display: inline;
+}
+
+.newtweet {
+    display: inline;
+
+}
