@@ -6,10 +6,10 @@ class Tweet extends React.Component {
         return (
             <div className='tweet'>
                 <p>I love everybody and everybody loves me.</p>
-                <span className='glyphicon glyphicon-heart-empty'></span>
-                <span className='glyphicon glyphicon-retweet'></span>
-                <span className='glyphicon glyphicon-comment'></span>
-                <span className='glyphicon glyphicon-envelope'></span>
+                <span id='heart' className='glyphicon glyphicon-heart-empty'></span>
+                <span id='retweet' className='glyphicon glyphicon-retweet'></span>
+                <span id='comment' className='glyphicon glyphicon-comment'></span>
+                <span id='envelope' className='glyphicon glyphicon-envelope'></span>
             </div>
         );
     }

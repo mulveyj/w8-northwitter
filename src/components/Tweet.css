@@ -1,4 +1,22 @@
 .tweet {
-    height: 40px;
     font-size: 16px;
+    margin-bottom: 10px;
+    border: 2px solid blue;
+    padding: 5px;
+}
+#heart{
+    display:inline-block;
+    width:10%;
+}
+#retweet {
+    display:inline-block;
+    width: 10%;
+}
+#envelope {
+    display:inline-block;
+    width: 10%;
+}
+#comment {
+    display:inline-block;
+    width: 10%;
 }
