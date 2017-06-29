@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import './App.css';
 import Profile from './Profile';
+import Trends from './Trends';
 
 class App extends React.Component {
   render() {
@@ -11,9 +12,7 @@ class App extends React.Component {
         <div className='main container-fluid'>
           <div className='area-left col-md-3'>
             <Profile />
-            <div className='component-trends'>
-              Trends
-            </div>
+            <Trends />
           </div>
           <div className='area-centre col-md-6'>
             <div className='component-makeTweet'>
