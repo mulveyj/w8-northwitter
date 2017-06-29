@@ -1,5 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
+import './App.css';
+import Profile from './Profile';
 
 class App extends React.Component {
   render() {
@@ -8,9 +10,7 @@ class App extends React.Component {
         <NavBar />
         <div className='main container-fluid'>
           <div className='area-left col-md-3'>
-            <div className='component-profile'>
-              Profile
-            </div>
+            <Profile />
             <div className='component-trends'>
               Trends
             </div>
