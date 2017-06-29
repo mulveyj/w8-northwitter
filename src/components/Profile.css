@@ -6,10 +6,18 @@
     display: inline-block;
 }
 
-.component-profile ul {
-    
+.topRow {
+    height: 74px;
 }
 
-li {
-    display: inline;
+.user {
+   
+}
+#donald {
+    border-radius: 50%;
+    height: 72px;
+    width: 72px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
 }
