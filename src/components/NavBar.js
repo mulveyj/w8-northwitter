@@ -5,7 +5,7 @@ import NavLink from './NavLink';
 class NavBar extends React.Component {
   render() {
     return (
-      <nav className='component-NavBar navbar navbar-default'>
+      <nav className='component-NavBar navbar navbar-default navbar-fixed-top'>
         <div className='container'>
           <div className="navbar-left">
             <ul className='nav navbar-nav'>
