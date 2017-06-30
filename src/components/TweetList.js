@@ -21,13 +21,12 @@ class TweetList extends React.Component {
                     }, []).sort((a, b) => {
                         const t1 = new Date(a.created_at).getTime();
                         const t2 = new Date(b.created_at).getTime();
-                        console.log(t1, t2);
                         return t2 - t1;
                     })
                 });
             })
             .then(()=>{
-                console.log(this.state.tweets);
+                console.log(this.state.tweets.entities);
             })
             .catch(console.log);
     }
@@ -38,7 +37,8 @@ class TweetList extends React.Component {
                     return (
                         <Tweet 
                             text={tweet.text}
-                            pic={tweet.user.profile_image_url} />
+                            pic={tweet.user.profile_image_url} 
+                            mediapic={tweet.entities}/>
                     );   
                 })}
             </div>
