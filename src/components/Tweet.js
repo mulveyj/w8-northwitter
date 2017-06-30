@@ -9,8 +9,8 @@ class Tweet extends React.Component {
                     <img id='obie' src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/44_barack_obama%5B1%5D.jpg" alt="Obama"/>
                 </div>
                 <div>
-                    <p>I love everybody and everybody loves me. Unlike you, Donald.</p>
-                    <img id='bigObie' src="https://www.whitehouse.gov/sites/whitehouse.gov/files/images/first-family/44_barack_obama%5B1%5D.jpg" alt="Obama"/>
+                    <p>{this.props.text}.</p>
+                    <img id='bigObie' src={this.props.pic} alt="Obama"/>
                     <span id='heart' className='glyphicon glyphicon-heart-empty'></span>
                     <span id='retweet' className='glyphicon glyphicon-retweet'></span>
                     <span id='comment' className='glyphicon glyphicon-comment'></span>
